@@ -12,7 +12,8 @@ import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.widget.TextView;
 /**
- * 回复的内容显示
+ * 匹配maxLines显示...
+ * 匹配中英文的自动换行
  * @author cgh
  *
  */
