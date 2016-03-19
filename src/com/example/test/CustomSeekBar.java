@@ -8,7 +8,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 /**
- * 滑动块
+ * 滑动块,中间显示进度
  * @author Administrator
  *
  */
