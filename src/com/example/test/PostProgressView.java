@@ -8,7 +8,7 @@ import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.View;
 /**
- * 圆形进度条
+ * 圆形进度条,中间显示进度
  * @author Administrator
  *
  */
