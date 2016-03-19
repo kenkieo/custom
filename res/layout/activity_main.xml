@@ -1,0 +1,60 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15.0dip" >
+
+        <com.example.test.ReplayView
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:drawablePadding="7.5dip"
+            android:drawableTop="@drawable/lion_video_replay"
+            android:ellipsize="end"
+            android:gravity="center|top"
+            android:maxLines="5"
+            android:paddingTop="15.0dip"
+            android:text="@string/text_replay"
+            android:textColor="@color/common_white"
+            android:textSize="14.0sp" />
+
+        <com.example.test.TouchRatingBar
+            android:id="@+id/activity_game_detail_header_ratingbar"
+            android:layout_width="match_parent"
+            android:layout_height="100.0dip"
+            android:layout_marginTop="20.0dip"
+            android:numStars="5"
+            android:progressDrawable="@drawable/common_stars"
+            android:rating="1.5"
+            android:stepSize="0.5" />
+
+        <com.example.test.SlashLineTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20.0dip"
+            android:text="你好" />
+
+        <com.example.test.PostProgressView
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
+            android:layout_marginTop="20.0dip" />
+
+        <com.example.test.CustomSeekBar
+            android:layout_width="match_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginTop="20.0dip" />
+
+        <com.example.test.PostContentView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#459378"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20.0dip" />
+    </LinearLayout>
+
+</ScrollView>

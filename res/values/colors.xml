@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="common_transparent">#00000000</color>
+    <color name="common_translucence_deep">#A0000000</color>
+    <color name="common_translucence">#80000000</color>
+    <color name="common_translucence_light">#40000000</color>
+    <color name="common_basic_red">#D33D3E</color>
+    <color name="common_basic_red_pre">#80D33D3E</color>
+    <color name="common_light_white">#F4F5F7</color>
+    <color name="common_white">#ffffff</color>
+    <color name="common_white_light">#A0ffffff</color>
+    <color name="common_white_pre">#80ffffff</color>
+    <color name="common_textcolor_gray">#646464</color>
+    <color name="common_textcolor_gray_deep">#646464</color>
+    <color name="common_textcolor_gray_dark">#343434</color>
+    <color name="common_gray">#dedede</color>
+    <color name="common_gray_light">#e1e1e1</color>
+    <color name="common_gray_deep">#cccccc</color>
+    <color name="common_black">#000000</color>
+    <color name="common_yellow">#FFAE00</color>
+    <color name="common_yellow_deep">#FE793E</color>
+    <color name="common_blue">#0090ff</color>
+    
+    <color name="common_search_bg">#F1F1F1</color>
+    <color name="common_yellow_light">#f6ddc7</color>
+    <color name="common_game_info_name">#1e1e1e</color>
+    <color name="common_game_info_size">#3c3c3c</color>
+    <color name="common_game_info_info">#646464</color>
+    <color name="common_item_tab_nor">#EEC0C2</color>
+    <color name="common_basic_bg">#F4F5F7</color>
+    <color name="common_textcolor_tab">#797A7C</color>
+    <color name="common_line">#E6E6E6</color>
+    <color name="common_item_green">#1B855A</color>
+    <color name="common_item_blue">#3E95F1</color>
+    <color name="common_item_wind_red">#9B3F96</color>
+    <color name="common_item_yellow">#F8951E</color>
+    <color name="common_gift_prosgress_gay">#c8c8c8</color>
+    <color name="common_gift_prosgress_red">#e53333</color>
+    <color name="common_gift_gray">#dbdbdb</color>
+    <color name="common_down_item_nor">#FF252525</color>
+    <color name="common_down_item_pre">#80252525</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+    <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+    <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <!-- Android standard ICS color -->
+    <color name="viewfinder_frame1">#2477ab</color>
+    <color name="viewfinder_frame">#00dd00</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="common_gay_signed">#969696</color>
+
+</resources>

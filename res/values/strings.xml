@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">虫虫助手</string>
+    <string name="text_acc_service_name">虫虫助手自动安装</string>
+    <string name="accessibility_service_description">[说明]虫虫自动安装可以在安装和升级应用时，在非锁屏状态下帮您点击安装按钮，使您无需操作也可安装应用。\n\n打开服务时，系统会弹出关于隐私风险的提示。虫虫承诺不会通过此服务获取任何用户信息，请您放心使用。\n开启本服务时，请将虫虫加入内存清理工具白名单，且不要强制退出虫虫，否则本服务会自动关闭，需要手动重新开启。\n\n本服务无需获取ROOT权限，支持Android4.1及以上系统。\n若有疑问，请加QQ群（140921575）进行反馈。</string>
+    
+    <string name="text_more">更多</string>
+    <string name="text_choiceness">精选</string>
+    <string name="text_category">分类</string>
+    <string name="text_list">榜单</string>
+    <string name="text_collection">合集</string>
+    <string name="text_click_to_view">点击查看</string>
+    <string name="text_replay">重播</string>
+
+    <!-- tab -->
+    <string name="tab_home">首页</string>
+    <string name="tab_game">网游</string>
+    <string name="tab_community">社区</string>
+    <string name="tab_find">发现</string>
+    <string name="tab_user">我</string>
+
+    <!-- home_tab -->
+    <string name="text_home_tab_crack">破解</string>
+    <string name="text_home_tab_new_game">新游</string>
+    <string name="text_home_tab_tools">工具</string>
+    <string name="text_home_tab_hb">红包</string>
+    <string name="text_recommend_hot">热门推荐</string>
+    <string name="text_recommend_new">最新巨作</string>
+    <string name="text_recommend_crack">破解汉化</string>
+    <string name="text_gift">礼包</string>
+    <string name="text_OLGame_item_game_gift">游戏礼包</string>
+    <string name="text_OLGame_item_beta">开服开测</string>
+    <string name="text_OLGame_item_trade_benefits">交易福利</string>
+    <string name="text_olgame_recommned">热门推荐</string>
+    <string name="text_olgame_ranking">人气排行</string>
+    <string name="text_olgame_new">最新上架</string>
+    <string name="text_ranking_total">综合</string>
+    <string name="text_ranking_olgame">网游</string>
+    <string name="text_ranking_standalone">单机</string>
+    <string name="text_total">全部</string>
+    <string name="text_game_recommend">精品推荐</string>
+    <string name="text_CCZS">虫虫助手</string>
+    <string name="text_search">搜索</string>
+    <string name="text_search_hot">热门搜索</string>
+    <string name="text_search_app_hot">大家都在搜</string>
+    <string name="text_search_preset">热搜</string>
+    <string name="text_search_his">历史</string>
+    <string name="text_search_his_clear">清除历史</string>
+    <string name="text_search_change">换一批</string>
+    <string name="text_crack_new">最新</string>
+    <string name="text_crack_hot">热门</string>
+    <string name="collection_detail">合集详情</string>
+    <string name="text_game_detail">游戏详情</string>
+    <string name="text_game_detail_tab_1">详情</string>
+    <string name="text_game_detail_tab_2">福利</string>
+    <string name="text_game_detail_tab_3">攻略</string>
+    <string name="text_game_detail_tab_4">论坛</string>
+    <string name="text_game_detail_tab_5">评论</string>
+    <string name="text_game_detail_tab_5_notice_1">综合评星</string>
+    <string name="text_game_detail_tab_5_notice_2">我要评论</string>
+    <string name="text_game_detail_tab_5_all">全部</string>
+    <string name="text_game_detail_tab_5_nice">好评</string>
+    <string name="text_game_detail_tab_5_bad">差评</string>
+    <string name="text_game_list">应用列表</string>
+    <string name="text_game_detail_topic_author">大厂巨作</string>
+    <!-- 红包 -->
+    <string name="text_red_packet">抢红包</string>
+    <string name="text_red_packet_step">活动步骤</string>
+    <string name="text_red_packet_title">体验抢红包</string>
+    <string name="text_red_packet_notice">活动说明</string>
+    <string name="text_red_packet_notice_1">请注意务必按照活动步骤依次进行</string>
+    <string name="text_red_packet_notice_2">100%获得随机现金红包！</string>
+    <string name="text_red_packet_notice_3">红包会存到“我的钱包”，满50元即可申请提现</string>
+    <string name="text_red_packet_notice_4">参与活动的应用列表会每天更新哦，所以不妨经常过 来抢红包吧~</string>
+    <string name="text_red_packet_notice_5">以上活动解释权归虫虫所有</string>
+    <string name="text_red_packet_ed">已获得</string>
+    <string name="text_red_packet_installed">已安装</string>
+
+    <!-- user -->
+    <string name="text_user_app_update">应用更新</string>
+    <string name="text_user_app_uninstall">应用卸载</string>
+    <string name="text_user_app_manage">安装包管理</string>
+    <string name="text_user_down_manage">下载管理</string>
+    <string name="text_user_wallet">我的钱包</string>
+    <string name="text_user_wallet_notice">代金券消费、虫币充值</string>
+    <string name="text_user_post">我的贴子</string>
+    <string name="text_user_msg">我的消息</string>
+    <string name="text_user_msg_to_me">回复我的</string>
+    <string name="text_user_msg_by_me">我回复的</string>
+    <string name="text_user_msg_system">系统通知</string>
+    <string name="text_user_zone">个人空间</string>
+    <string name="text_user_gift">我的礼包</string>
+    <string name="text_user_mark">我的收藏</string>
+    <string name="text_user_history">历史浏览</string>
+    <string name="text_sign">签到</string>
+    <string name="text_signed">已签到</string>
+    <string name="text_login_first">请先登录</string>
+    <string name="text_recharge_notice_1">请选择充值卡类型</string>
+    <string name="text_recharge_notice_2">请选择充值面值(1元=1虫币)</string>
+    <string name="text_recharge_notice_3">请输入充值卡信息</string>
+    <string name="text_recharge_notice_4">友情提示</string>
+    <string name="text_recharge_notice_5">1.您选择并使用的充值卡面值必须和消费面值一致，否则可能导致支付不成功或余额丢失。\n2.由于网络原因，可能会出现延迟情况。若超过24小时未到账，请联系虫虫客服</string>
+
+    <!-- 我的地址 -->
+    <string name="text_user_addr_notice">在虫虫积分商城兑换的商品我们将按照该地址邮寄给你，请确保信息准确~</string>
+    <string name="text_user_addr_name">姓名∶</string>
+    <string name="text_user_addr_addr">地址∶</string>
+    <string name="text_user_addr_phone">电话∶</string>
+    <string name="text_user_addr_post_code">邮编∶</string>
+    <string name="text_user_addr_QQ">QQ∶</string>
+
+    <!-- feedback -->
+    <string name="text_feedback_notice_1">反馈功能∶</string>
+    <string name="text_feedback_notice_2">联系方式</string>
+    <string name="text_feedback_action_1">功能建议</string>
+    <string name="text_feedback_action_2">Bug反馈</string>
+    <string name="text_feedback_contact_1">QQ</string>
+    <string name="text_feedback_contact_2">手机号码</string>
+    <string name="text_feedback_contact_3">邮箱</string>
+    <string name="text_commit">提交</string>
+
+    <!-- login -->
+    <string name="text_login">登录</string>
+    <string name="text_regiest">注册</string>
+    <string name="text_regiest_phone">手机注册</string>
+    <string name="text_regiest_email">邮箱注册</string>
+    <string name="text_get_security_code">获取验证码</string>
+    <string name="text_regiest_notice">注册就表示同意《虫虫用户协议》</string>
+    <string name="text_three_part_notice">使用以下方式无需注册</string>
+    <string name="text_regiest_email_notice">建议使用手机注册，登录更便捷</string>
+    <string name="text_login_by_community">论坛用户</string>
+    <string name="text_login_fogot_pwd">找回密码</string>
+    <string name="text_login_by_three_part">其他账号登录</string>
+    <string name="text_forgot_password">找回密码</string>
+    <string name="text_reset_password_notice">使用邮箱注册的用户，请联系客服service@ccplay.cc</string>
+    <string name="text_reset_password">重置密码</string>
+    <!-- app -->
+    <string name="text_update_info">正在更新用户信息中,请稍候&#8230;</string>
+    <string name="text_uninstall">卸载</string>
+    <string name="text_uninstall_at_memory">安装在手机上</string>
+    <string name="text_uninstall_at_sdcard">安装在SD卡上</string>
+    <string name="text_apk_scanning">安装包扫描</string>
+    <string name="text_select_or_invert">全选/反选</string>
+    <string name="text_delete_selected">删除选中</string>
+    <string name="text_install">安装</string>
+    <string name="text_unzip">解压</string>
+    <string name="text_unzip_ing">解压中</string>
+    <string name="text_not_install">未安装</string>
+    <string name="text_app_version_is_low">已安装旧版本,建议更新</string>
+    <string name="text_app_is_installed">已安装</string>
+    <string name="text_download_waiting_for">连接中</string>
+    <string name="text_download_stop">已暂停</string>
+    <string name="text_download_unknow_error">未知错误</string>
+    <string name="text_download_memory_error">存储空间不足</string>
+    <string name="text_app_update_all">全部更新</string>
+    <string name="text_app_update_ignore">忽略更新</string>
+    <string name="text_app_update_ignore_list">忽略列表</string>
+    <string name="text_app_update_ignore_cancel">取消忽略</string>
+    
+    <!-- settings -->
+    <string name="text_settings">设置</string>
+    <string name="text_settings_down_only_net">仅在wifi网络下载</string>
+    <string name="text_settings_auto_isntall_by_sdk">免ROOT自动安装</string>
+    <string name="text_settings_auto_install_by_root">ROOT用户自动安装</string>
+    <string name="text_settings_app_installed_del">安装后删除安装包</string>
+    <string name="text_settings_app_down_path">安装包存储位置</string>
+    <string name="text_settings_app_update_notice">应用升级提示</string>
+    <string name="text_settings_clear_memory">清理缓存</string>
+    <string name="text_settings_update">检查更新</string>
+    <string name="text_settings_feedback">意见反馈</string>
+    <string name="text_settings_about">关于虫虫</string>
+
+    <!-- userinfo -->
+    <string name="text_user_info">个人信息</string>
+    <string name="text_user_icon">头像</string>
+    <string name="text_user_nickname">昵称</string>
+    <string name="text_user_lv">会员等级</string>
+    <string name="text_user_formative_experiences">成长经验</string>
+    <string name="text_user_sex">性别</string>
+    <string name="text_user_birthday">生日</string>
+    <string name="text_user_signature">个性签名</string>
+    <string name="text_user_phone">手机号</string>
+    <string name="text_user_email">邮箱</string>
+    <string name="text_user_change_pwd">修改密码</string>
+    <string name="text_user_addr">我的地址</string>
+    <string name="text_user_update_addr">修改地址</string>
+    <string name="text_logout">退出登录</string>
+    <string name="text_man">男</string>
+    <string name="text_woman">女</string>
+    <string name="text_user_fans">我的粉丝</string>
+    <string name="text_user_attention">我的关注</string>
+    <string name="text_attention">关注</string>
+    <string name="text_attentioned">已关注</string>
+    <string name="text_mark">收藏</string>
+    <string name="text_cancel">取消</string>
+    <string name="text_marked">已收藏</string>
+
+    <!-- wallet -->
+    <string name="text_user_wallet_balance">我的余额</string>
+    <string name="text_user_wallet_ccplay_money">我的虫币</string>
+    <string name="text_user_wallet_points">我的积分</string>
+    <string name="text_user_wallet_coupon">我的代金券</string>
+    <string name="text_user_wallet_change_log">消费明细</string>
+    <string name="text_user_wallet_change_log_notice">代金券、虫币、道具现金购买</string>
+    <string name="text_user_wallet_balance_recharge_cc">充值虫币</string>
+    <string name="text_user_wallet_balance_withdraw_deposit">提现</string>
+    <string name="text_user_wallet_balance_make_money">赚钱去</string>
+    <string name="text_user_wallet_balance_notice">余额可满50元可提现,还可以提现到支付宝哦~</string>
+    <string name="text_user_change_log">消费明细</string>
+    <string name="text_user_wallet_balance_money">金额</string>
+    <string name="text_user_change_log_time">时间</string>
+    <string name="text_user_zfb">我的支付宝</string>
+    <string name="text_user_zfb_notice">请确保您填写的支付宝账号，真实姓名正确，若不正确，我们将通过QQ联系你进一步核实~</string>
+    <string name="text_user_zfb_account">支付宝账号∶</string>
+    <string name="text_user_zfb_name">真实姓名∶</string>
+    <string name="text_user_zfb_qq">QQ∶</string>
+    <string name="text_save">保存</string>
+    <string name="text_get_security">获取验证码</string>
+    <string name="text_user_balance_to_cc">余额充值虫币</string>
+    <string name="text_user_balance_to_cc_notice">余额满1元可充值虫币〔1元=1虫币〕，充值后将立即到账，可前往【我的虫币】页面查看。</string>
+    <string name="text_user_balance_to_cc_can_use_money">可充值余额∶</string>
+    <string name="text_user_balance_to_cc_cc_nums">虫币数量∶</string>
+    <string name="text_user_balance_to_cc_phone">手机号∶</string>
+    <string name="text_user_balance_to_cc_security_code">验证码∶</string>
+    <string name="text_user_balance_to_cc_btn">立即充值</string>
+    <string name="text_user_balance_to_cc_notice_bottom">如遇到问题，请联系虫虫客服</string>
+    <string name="text_user_balance_widthdraw">余额提现</string>
+    <string name="text_user_balance_widthdraw_notice">每日最多只能提现1次，每次最高限额500元，提现后将在3个工作日内到账。请确保您的信息准备无误，以免提现失败引起不必要的风险，谢谢！</string>
+    <string name="text_user_balance_widthdraw_account">提现账号</string>
+    <string name="text_change">修改</string>
+    <string name="text_user_balance_widthdraw_num">提现金额∶</string>
+    <string name="text_widthdraw">提现</string>
+    <string name="text_user_wallet_cc">我的虫币</string>
+    <string name="text_cc">虫币</string>
+    <string name="text_recharge">充值</string>
+    <string name="text_user_wallet_cc_recharge">虫币充值</string>
+    <string name="text_user_wallet_cc_recharge_notice">请选择充值数据 (1虫币=1元)</string>
+    <string name="text_user_wallet_cc_recharge_other">其他金额</string>
+    <string name="text_user_wallet_cc_recharge_immediately">立即充值</string>
+    <string name="text_points">积分</string>
+    <string name="text_befor_points">当前积分：%s</string>
+    <string name="text_user_wallet_points_exchange">兑换商品</string>
+    <string name="text_user_wallet_points_task">积分任务</string>
+    <string name="text_user_wallet_points_exchange_his">兑换记录</string>
+    <string name="text_exchange_notice_1">若您在兑换过程中遇到问题，请及时联系虫虫客服 QQ∶123456789</string>
+    <string name="text_user_coupon_can_use">可使用</string>
+    <string name="text_user_coupon_out_data">已过期</string>
+    <string name="text_service_phone">客服电话∶021&#8211;3257 5177</string>
+    <string name="text_service_email">邮箱∶service@ccplay.cc</string>
+    <string name="text_wallet_order_price">支付金额</string>
+    <string name="text_wallet_order_name">订单名称</string>
+    <string name="text_wallet_order_num">购买数量</string>
+    <string name="text_wallet_order_channel_list">充值列表</string>
+    <string name="text_wallet_order_notice_1">我已阅读并同意</string>
+    <string name="text_wallet_order_notice_2">《虫虫用户协议》</string>
+    <string name="text_wallet_order_info">订单详情</string>
+    <string name="text_wallet_recharge_card">充值卡支付</string>
+    <!-- user_zone -->
+    <string name="text_zone_post_all">全部贴子</string>
+    <string name="text_zone_post_video">视频贴子</string>
+    <string name="text_zone_post_recommend">精华贴子</string>
+    <string name="text_zone_plate">版块</string>
+    <string name="text_zone_play_list">ta在玩∶</string>
+
+    <!-- mark -->
+    <string name="text_my_mark_game">游戏</string>
+    <string name="text_my_mark_strategy">攻略</string>
+
+    <!-- down -->
+    <string name="text_download_manage">下载管理</string>
+    <string name="text_download">下载</string>
+    <string name="text_download_ing">下载中</string>
+    <string name="text_download_ed">已下载</string>
+    <string name="text_download_go_on">继续</string>
+    <string name="text_download_pause">暂停</string>
+    <string name="text_download_pause_ed">已暂停</string>
+    <string name="text_download_pause_ing">暂停中</string>
+    <string name="text_open">打开</string>
+    <string name="text_update">更新</string>
+    <string name="text_download_delete">删除</string>
+    <string name="text_download_cancel">取消下载</string>
+    <string name="text_download_cancel_ing">正在取消下载中</string>
+
+    <!-- formatt -->
+    <string name="text_formatt_fans" formatted="false">粉丝：%s</string>
+    <string name="text_formatt_attention" formatted="false">关注：%s</string>
+    <string name="text_formatt_security_code" formatted="false">剩余%s秒</string>
+    <string name="text_formatt_lv" formatted="false">L%s</string>
+    <string name="text_formatt_exp" formatted="false">%s(距离升级需%s点)</string>
+    <string name="text_formatt_yuan" formatted="false">%s元</string>
+    <string name="text_formatt_zhang" formatted="false">%s张</string>
+    <string name="text_formatt_widthdraw" formatted="false">可提现金额%s元</string>
+    <string name="text_formatt_cc_money_pay" formatted="false">应付金额：  ￥%s</string>
+    <string name="text_formatt_coupon_end_time" formatted="false">有效期至：%s</string>
+    <string name="text_formatt_coupon_will_expiry_count" formatted="false">您有%s张代金券快过期，请尽快使用</string>
+    <string name="text_formatt_downcount_size" formatted="false">%s下载(%s)</string>
+    <!-- listview -->
+    <string name="text_loading">正在加载中,请稍候&#8230;</string>
+    <string name="text_loading_fail">加载失败,点击重试</string>
+
+    <!-- digits -->
+    <string name="digits_unsign">0123456789</string>
+    <!-- 礼包 -->
+    <string name="text_gift_title">礼包</string>
+    <string name="text_mygift_title">我的礼包</string>
+    <string name="text_btn_booking">预订</string>
+    <string name="text_btn_booked">已预订</string>
+    <string name="text_btn_take">领取</string>
+    <string name="text_btn_tak_end">已领完</string>
+    <string name="text_btn_taked">已领取</string>
+    <string name="text_btn_copy">复制</string>
+    <string name="text_btn_ok_copy">点击复制</string>
+    <string name="text_btn_amoy">淘号</string>
+    <string name="text_gift_search">请输入礼包关键字</string>
+    <string name="text_gift_isinstall">已安装游戏礼包</string>
+    <string name="text_gift_new">最新礼包</string>
+    <string name="text_gift_surplus">剩余</string>
+    <string name="text_gift_detail">礼包详情</string>
+    <string name="text_gift_more">更多礼包</string>
+    <string name="text_gift_use_time">领取时间：%s</string>
+    <string name="text_gift_number">共有%s款礼包</string>
+    <string name="text_gift_search_title">礼包搜索</string>
+    <string name="text_btn_is_amoy">已淘号</string>
+    <string name="text_gift_is_amoy_toast">淘到的号不一定能兑换，越快兑换越好</string>
+    <string name="text_gift_taked_toast">礼包被领完后会进入淘号阶段，请尽快使用</string>
+    <string name="text_gift_booked_toast">已预订的礼包可提前30分钟领取，请留意系统通知</string>
+    <string name="text_gift_my">我的礼包</string>
+    <string name="text_gift_valid">有效期：%s</string>
+    <string name="text_copy">%s已复制</string>
+    <string name="text_camera">拍照</string>
+    <string name="text_sure">确定</string>
+    <string name="text_gift_update_time">更新时间：%s</string>
+    <string name="text_gift_new_gif">最新：%s</string>
+    <string name="text_gift_code">串号：%s</string>
+    <string name="text_gift_take_content">请尽快使用，礼包进入淘号阶段后，可能将无法使用该激活码。</string>
+    <string name="text_gift_amoy_content">淘到的号已经被领取过，不保证能正常兑换，请多淘几次。</string>
+    <string name="text_gift_amoy_success">淘号成功</string>
+    <string name="text_gift_take_fail">领号失败</string>
+    <string name="text_gift_take_success">领号成功</string>
+    <string name="text_gift_donwload">请先下载%s，再来领取礼包哦~</string>
+    <string name="text_gift_take_phone">领取礼包，需先验证手机号哦~</string>
+    <string name="text_gift_verification">验证</string>
+    <string name="text_gift_booking_success">预订成功</string>
+    <string name="text_gift_isamoy_number">已淘号%s次</string>
+    <string name="text_gift_verification_phone">验证手机号</string>
+
+    <!-- 开服开测 -->
+    <string name="text_open_service">开服表</string>
+    <string name="text_open_service_or_test">开服开测</string>
+    <string name="text_open_test">开测表</string>
+    <string name="text_openservice_type" formatted="false">%s  (%s)</string>
+    <string name="text_openservice_time" formatted="false">%s  %s</string>
+    <string name="text_find_activity_text">活动各种大奖不停，速速报名参加</string>
+    <string name="text_find_boon_text">游戏代金券各种打折、高级游戏账号等你来抢</string>
+    <string name="text_find_boon">交易福利</string>
+    <string name="text_find_money">积分任务</string>
+    <string name="text_find_money_text">每天做点任务，轻轻松松得积分</string>
+    <string name="text_find_moneyshop">积分商城</string>
+    <string name="text_find_moneyshop_text">兑换各种实物奖品，只要积分不要钱</string>
+    <string name="text_find_vip">VIP俱乐部</string>
+    <string name="text_find_vip_text">升级VIP，专享周边好礼、专属客服等特权</string>
+    <string name="text_find_ranking">达人榜单</string>
+    <string name="text_find_ranking_text">社区达人排名，看达人是怎么炼成的</string>
+    <string name="text_find_h5game">H5游戏</string>
+    <string name="text_find_h5game_text">轻轻一点，直接开始玩游戏</string>
+    <string name="text_find_readmore">阅读更多</string>
+
+    <!-- 发现 -->
+    <string name="text_find_activits">活动列表</string>
+    <string name="text_find_activits_time">倒计时：%s</string>
+    <string name="text_find_activits_end">活动已结束</string>
+    <string name="text_find_activits_start">活动已开始</string>
+    <string name="text_find_points_refrehs">刷新</string>
+    <string name="text_find_today_sign">每日签到</string>
+    <string name="text_find_money_add">金币：+%s</string>
+    <string name="text_find_ex_add">经验：+%s</string>
+    <string name="text_find_more_award_number">(最多奖励%s次)</string>
+    <string name="text_find_no_complete">未完成</string>
+    <string name="text_find_complete_number">已完成%s次</string>
+    <string name="text_find_today_series_sign">连续7天签到</string>
+    <string name="text_find_note">发布贴子</string>
+    <string name="text_find_comment">发布评论</string>
+    <string name="text_find_recommend">贴子被推荐</string>
+    <string name="text_find_download_app">下载应用</string>
+    <string name="text_find_share_app">分享应用</string>
+    <string name="text_find_good_surplus_number">剩余%s件</string>
+    <string name="text_find_good_exchange">兑换</string>
+    <string name="text_find_good_exchange_number">兑换数量：%s</string>
+    <string name="text_find_good_exchange_hint">请确保收货信息填写正确，否则我们将无法寄送商品。若3天内未联系您，则视为兑换失败并返还积分。</string>
+    <string name="text_find_good_take_address">收货地址</string>
+    <string name="text_find_good_detail">商品详情</string>
+    <string name="text_find_exchange_detail">兑换详情</string>
+    <string name="text_remark">备注：</string>
+    <string name="text_find_exchange_success">兑换成功~可前往【我的积分】-【兑换历史】中查看~</string>
+    <!-- 发现——>vip -->
+    <string name="text_vip_toast">在有虫虫角标的游戏内充值，即可成为VIP，享受特权服务</string>
+    <string name="text_vip_privilege">我的特权</string>
+    <string name="text_vip">VIP特权</string>
+    <string name="text_vip_introduce">VIP介绍</string>
+    <string name="text_vip_integral_get">每周积分领取</string>
+    <string name="text_vip_integral_get_text">随着VIP等级升高，可领取更多积分</string>
+    <string name="text_vip_voucher">代金券特权</string>
+    <string name="text_vip_voucher_text">可提前30分钟抢购限量代金券</string>
+    <string name="text_vip_money">金币商城折扣特权</string>
+    <string name="text_vip_money_text">可享有金币商城VIP折扣</string>
+    <string name="text_vip_birthday">生日福利特权</string>
+    <string name="text_vip_birthday_weal">生日福利</string>
+    <string name="text_vip_birthday_text">生日可获得游戏超值代金券</string>
+    <string name="text_vip_username">用户名专属标识</string>
+    <string name="text_vip_username_text">享有在贴子和评论中专属用户名标识</string>
+    <string name="text_vip_ancount">账号估价特权</string>
+    <string name="text_vip_ancount_text">享有估算账号价值的特权服务</string>
+    <string name="text_vip_ancount_goout">账号回购特权</string>
+    <string name="text_vip_ancount_goout_text">享有虫虫以估价价值，购回账号的特权服务</string>
+    <string name="text_vip_custom">专属客服服务</string>
+    <string name="text_vip_custom_text">享有1对1虫虫客服服务，为您解决各种问题</string>
+    <string name="text_vip_ambitus">周边赠送</string>
+    <string name="text_vip_ambitus_text">享有各种游戏周边赠送</string>
+    <string name="text_vip_level">VIP%s以上</string>
+    <string name="text_vip_level_2">VIP%s</string>
+    <string name="text_find_vip_upgrade">升级VIP等级可拥有更多特权</string>
+    <string name="text_vip_custom_1">VIP专属客服</string>
+    <string name="text_vip_custom_qq">专属客服QQ：%s</string>
+    <string name="text_vip_custom_tel">客服电话：%s</string>
+    <string name="text_vip_take_notes">领取记录</string>
+    <string name="text_vip_take_detail">领取详情</string>
+    <string name="text_vip_take_number">剩余数量：%s</string>
+    <string name="text_vip_take_number_1">领取数量：%s</string>
+    <string name="text_vip_qq">客服QQ：%s</string>
+    <string name="text_vip_take_state">状态：%s</string>
+    <string name="text_vip_ambitus_gift">周边好礼</string>
+    <string name="text_vip_ambitus_detail">礼品详情</string>
+    <string name="text_vip_take_no">暂无领取记录~</string>
+    <string name="text_vip_vipusernameflag">在个人空间、发布的贴子和评论中能看到自己的VIP专属标识~</string>
+    <string name="text_vip_take_success">领取成功后，礼品会在1~3个工作日发放~</string>
+    <string name="text_vip_ambitus_gift_prompt">请确保收货信息填写正确，若地址不正确，我们将无法寄送商品(我们会通过QQ/电话与您核对地址，请保持联系方式畅通 )</string>
+    <!-- game_detail -->
+    <string name="text_game_detail_score">%.1s分</string>
+    <string name="text_game_detail_official">官方版</string>
+    <string name="text_game_detail_noad">无广告</string>
+    <string name="text_game_detail_need_net">需联网</string>
+    <string name="text_game_detail_picture_shot">游戏截图</string>
+    <string name="text_game_detail_editor_recommned">小编推荐</string>
+    <string name="text_game_detail_intro">简介</string>
+    <string name="text_game_detail_Prompt">温馨提示</string>
+    <string name="text_game_detail_RI">相关信息</string>
+    <string name="text_game_detail_RI_version" formatted="false">版本：%s</string>
+    <string name="text_game_detail_RI_time" formatted="false">时间：%s</string>
+    <string name="text_game_detail_RI_launguage" formatted="false">语言：%s</string>
+    <string name="text_game_detail_RI_company" formatted="false">下载量：%s</string>
+    <string name="text_game_detail_tags">应用标签</string>
+    <string name="text_game_detail_report">举报反馈</string>
+    <string name="text_game_detail_recommned">相关游戏推荐</string>
+    <string name="text_game_detail_gift_notice">最新礼包</string>
+    <string name="text_game_strategy_search">攻略搜索</string>
+    <string name="text_game_strategy_recommend">相关攻略</string>
+    
+    <string name="text_game_trade">交易福利</string>
+    <string name="text_game_coupon_purchase">立即抢购</string>
+    <string name="text_game_coupon_purchase_end">抢光了</string>
+    <string name="text_game_coupon_detail">游戏代金券</string>
+    <string name="text_game_coupon_detail_surplus">剩余</string>
+    <string name="text_game_coupon_limited_2_buy">限时抢购</string>
+    <string name="text_game_coupon_no_limited_2_buy">不限时抢购</string>
+    <string name="text_game_coupon_buy">代金券详情</string>
+    
+    <string name="text_game_coupon_buy_num">购买数量：</string>
+    <string name="text_game_coupon_buy_price">支付金额：</string>
+    <string name="text_sub_icon">－</string>
+    <string name="text_add_icon">＋</string>
+    
+    <string name="text_game_coupon_notice_1">代金券说明</string>
+    <string name="text_game_coupon_notice_2">适用游戏</string>
+    <string name="text_game_coupon_notice_3">使用期限</string>
+    <string name="text_game_coupon_notice_4">使用方法</string>
+
+    <!-- panel -->
+    <string name="text_panel_game_detail_notice">第一时间获取福利、论坛资讯~</string>
+    <string name="text_panel_community_plate_detail">视频贴，图文贴，点击这里发布~</string>
+    <string name="text_good_exchange_remark">若信息有更改，可在此备注最新信息，便于商品兑换</string>
+
+    <!-- 达人榜 -->
+    <string name="text_active_rank">活跃榜</string>
+    <string name="text_total_rank">名人堂</string>
+    <string name="text_rank_list">达人榜单</string>
+    <string name="text_rank_total_rule">根据用户累计经验值高低进行排序</string>
+    <string name="text_rank_week_rule">根据用户本周发帖数综合排序(1精华帖=10普通帖)</string>
+    <string name="text_request_auth">申请认证</string>
+    <string name="text_cc_auth">虫虫认证</string>
+    <string name="text_cc_auth_des">虫虫认证说明</string>
+    
+
+</resources>

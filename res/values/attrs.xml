@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<declare-styleable name="CircleFlowIndicatorStyle">
+		<attr name="CircleFlowIndicatorStyle_Count" 					format="integer" />
+		<attr name="CircleFlowIndicatorStyle_Normal" 					format="reference|color" />
+		<attr name="CircleFlowIndicatorStyle_Selected" 					format="reference|color" />
+		<attr name="CircleFlowIndicatorStyle_Selection" 				format="integer" />
+		<attr name="CircleFlowIndicatorStyle_Radius" 					format="dimension" />
+		<attr name="CircleFlowIndicatorStyle_Gravity">
+    		<flag name="left" value="1" />
+    		<flag name="center" value="0" />
+    		<flag name="right" value="2" />
+		</attr>
+    </declare-styleable>
+    <declare-styleable name="RatioImageView">
+        <attr name="RatioImageView_X" 									format="integer" />
+        <attr name="RatioImageView_Y" 									format="integer" />
+    </declare-styleable>
+    <declare-styleable name="ShaderImageView">
+        <attr name="ShaderImageView_BgColor" 							format="reference|color" />
+        <attr name="ShaderImageView_BgWidth" 							format="dimension" />
+        <attr name="ShaderImageView_BorderColor" 						format="reference|color" />
+        <attr name="ShaderImageView_BorderWidth" 						format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="NewsPaperIndicator">
+        <attr name="NewsPaperIndicator_Rect_Width" 						format="dimension" />
+        <attr name="NewsPaperIndicator_Rect_Height" 					format="dimension" />
+        <attr name="NewsPaperIndicator_Num" 							format="integer" />
+        <attr name="NewsPaperIndicator_Normal_Color"					format="reference|color" />
+        <attr name="NewsPaperIndicator_Select_Color" 					format="reference|color" />
+        <attr name="NewsPaperIndicator_Padding" 						format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="CustomGridLayout">
+        <attr name="CustomGridLayout_numColumns" 						format="integer|reference" />
+        <attr name="CustomGridLayout_divider" 							format="reference" />
+        <attr name="CustomGridLayout_horizontalSpacing" 				format="dimension" />
+        <attr name="CustomGridLayout_verticalSpacing"	 				format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="CustomTagsGridView">
+        <attr name="CustomTagsGridView_horizontalSpacing" 				format="dimension" />
+        <attr name="CustomTagsGridView_verticalSpacing" 				format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="GameSearchAppKeyGridLayout">
+        <attr name="GameSearchAppKeyGridLayout_divider" 				format="reference" />
+        <attr name="GameSearchAppKeyGridLayout_divider_HeightPadding" 	format="dimension" />
+    </declare-styleable>
+    
+    <declare-styleable name="NoticeTextView">
+        <attr name="NoticeTextView_Color" 								format="reference|color" />
+    </declare-styleable>
+    
+    <declare-styleable name="SecurityCodeView">
+        <attr name="SecurityCodeView_Type">
+            <enum name="type_regiest_phone" value="0"/>
+            <enum name="type_reset_pwd" value="1"/>
+        </attr>
+        <attr name="SecurityCodeView_color" 							format="reference|color" />
+    </declare-styleable>
+    
+    <declare-styleable name="WheelView">
+        <attr name="WheelView_Type">
+            <enum name="type_year" value="0"/>
+            <enum name="type_month" value="1"/>
+            <enum name="type_day" value="2"/>
+        </attr>
+        <attr name="WheelView_Normal_Color" 							format="reference|color" />
+        <attr name="WheelView_Normal_TextSize" 							format="dimension" />
+        <attr name="WheelView_Select_Color" 							format="reference|color" />
+        <attr name="WheelView_Select_TextSize"							format="dimension" />
+        <attr name="WheelView_Select_Desc" 								format="string|reference" />
+        <attr name="WheelView_Select_Frame_Color"						format="reference|color" />
+        <attr name="WheelView_Padding" 									format="dimension" />
+        <attr name="WheelView_Count" 									format="dimension" />
+        <attr name="WheelView_Item_Height" 								format="dimension" />
+        <attr name="WheelView_Item_Width" 								format="dimension" />
+    </declare-styleable>
+    
+     <declare-styleable name="UserWalletBalanceTitleLayout">
+        <attr name="UserWalletBalanceTitleLayout_divider" 				format="reference" />
+        <attr name="UserWalletBalanceTitleLayout_divider_HeightPadding" format="dimension" />
+    </declare-styleable>
+    
+    <declare-styleable name="VideoSeekBar">
+		<attr name="VideoSeekBar_Progress_height" 						format="dimension" />
+    </declare-styleable>
+    
+     <declare-styleable name="CustomProgressBar">
+        <attr name="CustomProgressBar_ProgressHeight" 					format="dimension" />
+    </declare-styleable>
+    
+     <declare-styleable name="RedPacketNoticeView">
+         <attr name="RedPacketNoticeView_index" 						format="string|reference"/>
+     </declare-styleable>
+     
+     <declare-styleable name="VipImageView">
+         <attr name="VipImageView_Scale" 								format="integer"/>
+     </declare-styleable>
+     
+     <declare-styleable name="TouchRatingBar">
+         <attr name="TouchRatingBar_Count"								format="integer"/>
+         <attr name="TouchRatingBar_Step"								format="float"/>
+         <attr name="TouchRatingBar_Rating"								format="float"/>
+     </declare-styleable>
+     
+</resources>
