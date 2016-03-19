@@ -12,7 +12,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 /**
- * 评分工具
+ * 评分工具,五角星,可滑动
  * @author Administrator
  *
  */
