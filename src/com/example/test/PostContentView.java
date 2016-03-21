@@ -3,7 +3,6 @@ package com.example.test;
 import java.lang.reflect.Method;
 
 import android.content.Context;
-import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.text.Layout;
 import android.text.SpannableStringBuilder;
@@ -22,37 +21,30 @@ public class PostContentView extends TextView{
 	private String 	mEllipsize = "...";
 	private int 	mMaxLines;
 	
+	private PostContentBean mPostContentBean;
+	
 	public PostContentView(Context context, AttributeSet attrs) {
 		super(context, attrs);
-//		setMovementMethod(CustomLinkMovementMethod.getInstance());//内链点击
+//		setMovementMethod(CustomLinkMovementMethod.getInstance());
 	}
 	
-	public void setContent(CharSequence text, boolean clickableSpan, int maxLines) {
-//		text = parseContent(text, clickableSpan);//处理内链接跳转
-//		text = MatcherEmojiUtils.parseEmoji(getContext(), text);//处理表情
+	public void setContent(PostContentBean bean, boolean clickableSpan) {
+		mPostContentBean = bean;
+		CharSequence text = bean.mBuilder;
+		if(!bean.mParsed){
+//			text = parseContent(text, clickableSpan);
+//			text = MatcherEmojiUtils.parseEmoji(getContext(), text);
+		}
 		setText(text);
 	}
 	
-	public void setContent(CharSequence text){
-//		text = MatcherEmojiUtils.parseEmoji(getContext(), text);//处理表情
+	public void setContent(PostContentBean bean){
+		mPostContentBean = bean;
+		CharSequence text = bean.mBuilder;
+		if(!bean.mParsed){
+//			text = MatcherEmojiUtils.parseEmoji(getContext(), text);
+		}
 		setText(text);
-	}
-	
-	@Override
-	protected void onDraw(Canvas canvas) {
-		super.onDraw(canvas);
-	}
-
-	@Override
-	protected void onFinishInflate() {
-		super.onFinishInflate();
-		setText("comment_contjsdkfj jwj23jr 2顶替日3求爆照暧昧在今年13在岁的程欣是一名早产儿，出生6个月后被查出患有先天性脑瘫，" +
-				"父母带她四处求医，债台高筑，但病情一直不见好转。13年来，僵硬地躺着，是程欣生活中主要的姿势。家人一度只能靠喂白酒来缓解她的疼痛ent=" +
-				"[*$emoji_am*$]1[*$emoji_yiw*$]2[*$emoji_ll*$]3[*$emoji_ll*$]" +
-				"[*$emoji_ll*$]4[*$emoji_yiw*$]5[*$emoji_qq*$]6[*$emoji_huaix*$]" +
-				"[*$emoji_huaix*$]7[*$emoji_qq*$]8[*$emoji_qq*$]9[*$emoji_huaix*$]" +
-				"[*$emoji_huaix*$]10[*$emoji_ll*$]11[*$emoji_ll*$]12[*$emoji_ll*$]" +
-				"[*$emoji_ll*$]13[*$emoji_pz*$]14[*$emoji_ll*$]15[*$emoji_ll*$]16");
 	}
 	
 //	private CharSequence parseContent(CharSequence text, final boolean clickableSpan) {
@@ -82,7 +74,6 @@ public class PostContentView extends TextView{
 		super.setMaxLines(maxlines);
 	}
 	
-	private boolean mCheckLayout;
 	private SpannableStringBuilder mBuilder = new SpannableStringBuilder();
 	private Paint mPaint = new Paint();
 	private SpannableStringBuilder mTmepBuilder = new SpannableStringBuilder();
@@ -90,9 +81,8 @@ public class PostContentView extends TextView{
 	@Override
 	protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
 		super.onLayout(changed, left, top, right, bottom);
-		if(!mCheckLayout){
-			mCheckLayout = true;
-			
+		if(mPostContentBean != null && !mPostContentBean.mParsed){
+			mBuilder.clear();
 			if(getWidth() != 0){
 				try {
 					int contentLength = getWidth() - getPaddingLeft() - getPaddingRight();
@@ -100,14 +90,14 @@ public class PostContentView extends TextView{
 					
 					int lines = 0;
 					int start = 0;
+					
 					for (int i = 0; i < length; i++) {
 						int end = TextUtils.indexOf(getText(), '\n', i, length);
-						 if (end < 0) 
-					            i = length;
-						    else
-						    	i = end;
-						 
-						 
+						if (end < 0) 
+							i = length;
+						else
+						    i = end + 1;
+						
 						for (int j = start; j <= i; j++) {
 							CharSequence sequence = getText().subSequence(start, j);
 							mTmepBuilder.clear();
@@ -134,13 +124,15 @@ public class PostContentView extends TextView{
 				            		j = i;
 				            		mBuilder.append(mEllipsize);
 								}
-				            	
-				            	if(j != length){
+				            	if(j != length && mBuilder.charAt(mBuilder.length() - 1) != '\n'){
 				            		mBuilder.append("\n");
 				            	}
 				            }
 						}
 					}
+					mPostContentBean.mParsed = true;
+					mPostContentBean.mBuilder.clear();
+					mPostContentBean.mBuilder.append(mBuilder);
 					setText(mBuilder);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -160,5 +152,13 @@ public class PostContentView extends TextView{
 			return (Float) measurePara.invoke(null, getPaint(), sequence, 0, sequence.length());
 		}
 	}
+	
+	public class PostContentBean {
+
+		public String content;
+		public SpannableStringBuilder mBuilder = new SpannableStringBuilder();
+		public boolean mParsed;
+	}
+
 	
 }
